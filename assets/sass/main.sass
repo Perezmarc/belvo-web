@@ -1,0 +1,48 @@
+@import './wrappers.sass'
+@import './buttons.sass'
+@import './vars.sass'
+  
+@font-face
+  font-family: 'Circular-Bold'
+  src: url('../fonts/Circular_Air-Bold.otf')
+
+@font-face
+  font-family: 'Circular-Book'
+  src: url('../fonts/Circular_Air-Book.otf')
+
+@font-face
+  font-family: 'Inconsolata-Bold'
+  src: url('../fonts/Inconsolata-Bold.ttf')
+
+@font-face
+  font-family: 'Inconsolata'
+  src: url('../fonts/Inconsolata-Regular.ttf')
+
+*
+  box-sizing: border-box
+
+body
+  font-family: 'Circular-Book', 'Arial Narrow', Arial, sans-serif
+  background-color: $color-primary
+  color: #ffffff
+  padding: 40px
+  font-size: 14px
+  margin: 0
+  @media (min-width: 768px)
+    padding: 40px 80px
+
+h1, h2, h3, h4, h5, h6
+  font-family: 'Circular-Book', 'Arial Narrow', Arial, sans-serif
+  font-weight: normal
+
+h1 
+  font-size: 60px
+
+h3
+  font-family: 'Circular-Bold', 'Arial Narrow', Arial, sans-serif
+  font-size: 24px
+  line-height: 2em
+
+h4
+  font-size: 20px
+  line-height: 2em

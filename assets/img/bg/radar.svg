@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="599" height="722" viewBox="0 0 599 722">
+    <defs>
+        <circle id="b" cx="62" cy="157" r="8"/>
+        <filter id="a" width="362.5%" height="362.5%" x="-131.2%" y="-131.2%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0"/>
+        </filter>
+        <circle id="d" cx="142" cy="388" r="8"/>
+        <filter id="c" width="362.5%" height="362.5%" x="-131.2%" y="-131.2%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0"/>
+        </filter>
+        <circle id="f" cx="482" cy="176" r="8"/>
+        <filter id="e" width="362.5%" height="362.5%" x="-131.2%" y="-131.2%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="361" cy="361" r="361" fill="#FFF" opacity=".1"/>
+        <circle cx="361" cy="361" r="221" fill="#FFF" opacity=".1"/>
+        <circle cx="361" cy="361" r="221" opacity=".1"/>
+        <circle cx="361" cy="361" r="361" opacity=".1"/>
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <use fill="#FFF" xlink:href="#b"/>
+        <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+        <use fill="#FFF" xlink:href="#d"/>
+        <use fill="#000" filter="url(#e)" xlink:href="#f"/>
+        <use fill="#FFF" xlink:href="#f"/>
+        <circle cx="361" cy="361" r="81" fill="#FFF" opacity=".1"/>
+        <path fill="#FFF" d="M360 0h3v280h-3z"/>
+    </g>
+</svg>

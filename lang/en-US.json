@@ -1,0 +1,20 @@
+{
+  "home_claim1": "Bank Connectivity Simplified",
+  "home_claim2": "Powering the next generation of financial services in Latin America",
+  "home_highlights_api_title": "Instant-acces API",
+  "home_highlights_api_content": "Seamlessly connect to your users’ accounts and cards and retrieve transactions, identity and much more",
+  "home_highlights_latam_title": "Full Latam coverage",
+  "home_highlights_latam_content": "Integrate hundreds of banks across the region so you can concentrate on scaling your business",
+  "home_highlights_security_title": "Next-gen security",
+  "home_highlights_security_content": "Full encryption built in to ensure your users’ data will always be safe and never be compromised",
+  "home_features_title": "The Belvo API is ideal for any fintech solution or application.",
+  "home_features_finance_management_title": "Personal Finance Management",
+  "home_features_credit_title": "Credit",
+  "home_features_investment_title": "Investment",
+  "home_features_accounting_software_title": "Accounting Software",
+  "home_features_savings_title": "Savings",
+  "home_features_account_authentication_title": "Account Authentication",
+  "home_developers_title": "For developers, by developers.",
+  "home_developers_content": "Connecting to banks can be a tedious process. With Belvo it’s just a few lines of code.",
+  "footer_copyright": "Belvo © {year}. Made with {love} in Barcelona and CDMX"
+}

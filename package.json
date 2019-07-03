@@ -1,0 +1,21 @@
+{
+  "name": "belvo-web",
+  "version": "1.0.0",
+  "description": "Belvo&#39;s landing page",
+  "author": "Marc Pérez",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "nuxt": "^2.0.0",
+    "nuxt-i18n": "^5.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
